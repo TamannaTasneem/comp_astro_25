@@ -1,0 +1,5 @@
+commit 4762910425bcff603546e3c5a84a58743a40a060
+Author: Tiziano Zingales <tiziano.zingales@gmail.com>
+Date:   Thu Oct 9 19:23:08 2025 +0200
+
+    Add landing page that redirects to Sphinx documentation
