@@ -13,6 +13,9 @@ class Parameters:
     """
 
     def __init__(self, input_file):
+        dir_path = os.path.dirname(os.path.realpath(__file__))
+        input_file = os.path.join(dir_path, input_file)
+
         if os.path.exists(input_file) and os.path.isfile(input_file):
             with open(input_file) as in_f:
                 self.params = yaml.load(in_f, Loader=yaml.FullLoader)

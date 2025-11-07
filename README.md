@@ -49,6 +49,9 @@ daneel -i parameters.yaml -d
 # Run atmospheric characterization
 daneel -i parameters.yaml -a
 
+# Run the transit method
+daneel -i params.yaml -t
+
 # Run both detection and atmospheric analysis
 daneel -i parameters.yaml -d -a
 ```
